@@ -1,0 +1,50 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb_convert/
+# Remove large notebook outputs before committing!
+
+# ==========================
+# Data Files (ignore raw/large)
+# ==========================
+*.csv
+*.pkl
+*.xlsx
+*.ods
+*.zip
+*.tar
+*.gz
+data/
+datasets/
+models/
+
+# ==========================
+# Streamlit / App
+# ==========================
+.streamlit/
+logs/
+*.log
+
+# ==========================
+# Environment / IDE
+# ==========================
+.env
+.venv/
+venv/
+*.swp
+.DS_Store
+.vscode/
+.idea/
